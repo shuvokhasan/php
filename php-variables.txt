@@ -1,0 +1,15 @@
+// PHP variable rules:
+
+// Start with $ – All variables begin with a dollar sign: $var.
+
+// Valid names – Variable names must start with a letter or underscore (_), followed by any number of letters, numbers, or underscores.
+
+// Case-sensitive – $name and $Name are different variables.
+
+// No spaces – Use underscores (_) or camelCase instead of spaces
+
+// No special characters – Avoid characters like !, @, #, -, etc.
+
+// Must be assigned before use – Variables must be assigned a value before being used.
+
+// Dynamically typed – PHP variables do not need a type declaration.
