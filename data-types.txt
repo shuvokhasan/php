@@ -1,0 +1,12 @@
+PHP supported Data Types:
+    1. Integer (+- 2.1B, positive/negative numbers)
+    2. Float (floating point numbers/fractions)
+
+    3. String (any words/characters)
+    4. Boolean (true/false)
+
+    5. Array (collection of values in a single variable)
+    6. Object (stores both data and functions)
+    7. Resource (holds a reference to an external resource)
+    
+    8. NULL (a variable with no value)
