@@ -1,0 +1,3 @@
+Create a responsive html page with TailwindCSS. Design, Layout:
+- h1 with full width, centered text(Welcome to My Page)
+- a section(div) with rounded corner, centered position.
