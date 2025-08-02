@@ -1,22 +1,21 @@
 <?php
 
-  $title = 'Responsive Page';
+  $title = 'Responsive PHP Page';
 
-  function math($a, $b){
+  function sum($a, $b){
+    echo $a .' + '. $b .' = '. $a + $b;
+  }
 
-    $sum = $a + $b;
-    $sub = $a - $b;
-    $div = $a / $b;
+  function sub($a, $b){
+    echo $a .' - '. $b. ' = '. $a - $b;
+  }
 
-    echo $a .' + '. $b . ' = '. $sum;
-    echo '<br />';
-    echo $a .' - '. $b . ' = '. $sub;
-    echo '<br />';
-    echo $a .' / '. $b . ' = '. $div;
-
+  function div($a, $b){
+    echo $a .' / '. $b. ' = ' .$a / $b;
   }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +35,12 @@
   <div class="max-w-2xl md:mx-auto mt-10 bg-white p-6 rounded-2xl shadow-md mx-4">
     <p class="text-gray-700 text-lg">
       <?php
-        echo math(15, 5);
+        sum(34, 45);
+        echo '<br>';
+        sub(34, 45);
+        echo '<br>';
+        div(34, 45);
+        echo '<br>';
       ?>
     </p>
   </div>
