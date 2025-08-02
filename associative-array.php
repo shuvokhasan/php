@@ -7,4 +7,5 @@ $user = [
 ];
 
 echo 'Hello ', $user['name'];
+echo '<br />';
 echo $user['hobbies'][1];
